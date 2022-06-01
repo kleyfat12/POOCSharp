@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CreatingClasses
+namespace Scope
 {
     class Calculator
     {
@@ -18,6 +18,8 @@ namespace CreatingClasses
         public void Suma()
         {
             r = a + b;
+            // I can not use c variable declared in Program.cs
+            //r = a + b + c;
         }
 
         public void Muestra()
