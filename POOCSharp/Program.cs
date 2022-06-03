@@ -1,5 +1,5 @@
 ﻿
-using POOCSharp;
+using CreatingClasses;
 
 //Create an instance of calculator
 Calculator calculator = new Calculator();
