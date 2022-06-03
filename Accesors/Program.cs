@@ -3,11 +3,13 @@
 Employee employee = new Employee();
 employee.Show();
 
-employee.SetSalary(40000);
+employee.SetSalary(50000);
 employee.SetName("Juan");
-
 employee.Show();
 
-employee.CaculateTax();
+employee.ShowLog();
 
-employee.Show();
+Console.WriteLine(employee.GetSalary(1234));
+Console.WriteLine(employee.GetTax(1234));
+
+employee.ShowLog();
