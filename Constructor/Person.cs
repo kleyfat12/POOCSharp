@@ -19,9 +19,26 @@ namespace Constructor
             Age = age;
         }
 
+        //Constructor overload
+        public Person(string name)
+        {
+            Name = name;
+            Age = 18;
+        }
+
         public void Show()
         {
             Console.WriteLine("Name = {0}, Age = {1}", Name, Age);
+        }
+
+        /*
+        .NET 5 (including .NET Core) or a later version: 
+        There's no output, because this implementation of .NET doesn't 
+        call finalizers (destructors) when the application terminates.
+         */
+        ~Person()
+        {
+            Console.WriteLine("Message form person destructor");
         }
     }
 }
