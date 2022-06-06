@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Properties", "Properties\Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Overloading", "Overloading\Overloading.csproj", "{79E692EB-DCC8-43FF-AFE2-D85AB97B4A03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{D4ADA377-96E2-4622-BDF1-E4B75566AACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor", "Constructor\Constructor.csproj", "{D4ADA377-96E2-4622-BDF1-E4B75566AACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticAttributes", "StaticAttributes\StaticAttributes.csproj", "{3196D736-3C08-4695-A685-65EC9B0B8D7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{D4ADA377-96E2-4622-BDF1-E4B75566AACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4ADA377-96E2-4622-BDF1-E4B75566AACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4ADA377-96E2-4622-BDF1-E4B75566AACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3196D736-3C08-4695-A685-65EC9B0B8D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3196D736-3C08-4695-A685-65EC9B0B8D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3196D736-3C08-4695-A685-65EC9B0B8D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3196D736-3C08-4695-A685-65EC9B0B8D7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
