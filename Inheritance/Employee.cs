@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Employee : Person
+    sealed class Employee : Person
     {
         public double Salary { get; set; }
         public string Position { get; set; }
@@ -24,6 +24,12 @@ namespace Inheritance
         {
             Show();
             Console.WriteLine($"Salary: {Salary}, Position: {Position}");
+        }
+
+        public void ShowDNI()
+        {
+            // I can access to DNI attribute
+            Console.WriteLine(DNI);
         }
     }
 }

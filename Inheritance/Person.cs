@@ -11,6 +11,7 @@ namespace Inheritance
         public string Name { get; set; }
         public string Surnames { get; set; }
         public int Age { get; set; }
+        protected string DNI = "";
 
         public Person(string name, string surnames, int age)
         {
