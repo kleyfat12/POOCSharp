@@ -10,6 +10,17 @@ employee.Show();
 
 // I can not access to DNI
 // Console.WriteLine(person.DNI);
+Console.WriteLine("---------");
+
+// Checking polymorphism
+
+Person myPerson = new Employee("Fernando", "Carrillo", 18, 500000, "Programmer");
+
+// The person method is called
+myPerson.Show();
+
+// The employee method is called
+myPerson.BetterShow();
 
 /*
  * Notes:
@@ -22,4 +33,7 @@ employee.Show();
  * sealed:
  * Prevents the class from having sub classes
  * Also prevents override on methods
+ * 
+ * new on methods:
+ * Allows us to override method but we lost polymorphism
  */

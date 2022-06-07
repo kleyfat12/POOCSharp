@@ -21,12 +21,19 @@ namespace Inheritance
         }
 
         /*
-         * No one can override this method
+         * Although in the base class it is not marked as virtual, 
+         * you can overwrite a method with new, but polymorphism is lost
          */
-        public sealed override void Show()
+        public new void Show()
         {
             base.Show();
             Console.WriteLine($"Salary: {Salary}, Position: {Position}");
+        }
+
+        public override void BetterShow()
+        {
+            base.BetterShow();
+            Console.WriteLine($"with salary of ${Salary} and position {Position}");
         }
 
         public void ShowDNI()
