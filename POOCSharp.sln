@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticMethods", "StaticMeth
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{78EC758B-384C-401D-98C1-7CA00EE6C7A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregation", "Aggregation\Aggregation.csproj", "{2BA81FFE-2CDF-4FBB-813A-84EA36F3F2A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregation", "Aggregation\Aggregation.csproj", "{2BA81FFE-2CDF-4FBB-813A-84EA36F3F2A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition", "Composition\Composition.csproj", "{596EC291-F754-4A8D-9EA6-9E80731C1153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composition", "Composition\Composition.csproj", "{596EC291-F754-4A8D-9EA6-9E80731C1153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassMethod", "AbstractClassMethod\AbstractClassMethod.csproj", "{086BE23C-2CAD-4BDF-9613-135D48E45D63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{596EC291-F754-4A8D-9EA6-9E80731C1153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{596EC291-F754-4A8D-9EA6-9E80731C1153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{596EC291-F754-4A8D-9EA6-9E80731C1153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086BE23C-2CAD-4BDF-9613-135D48E45D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086BE23C-2CAD-4BDF-9613-135D48E45D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086BE23C-2CAD-4BDF-9613-135D48E45D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086BE23C-2CAD-4BDF-9613-135D48E45D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
