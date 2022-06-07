@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    sealed class Employee : Person
+    class Employee : Person
     {
         public double Salary { get; set; }
         public string Position { get; set; }
@@ -20,9 +20,12 @@ namespace Inheritance
             Position = position;
         }
 
-        public void ShowEmployee()
+        /*
+         * No one can override this method
+         */
+        public sealed override void Show()
         {
-            Show();
+            base.Show();
             Console.WriteLine($"Salary: {Salary}, Position: {Position}");
         }
 

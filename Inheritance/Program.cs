@@ -6,7 +6,7 @@ person.Show();
 Console.WriteLine("---------");
 
 Employee employee = new Employee("Fernando", "Carrillo López", 18, 500000, "Programmer");
-employee.ShowEmployee();
+employee.Show();
 
 // I can not access to DNI
 // Console.WriteLine(person.DNI);
@@ -21,4 +21,5 @@ employee.ShowEmployee();
  * 
  * sealed:
  * Prevents the class from having sub classes
+ * Also prevents override on methods
  */

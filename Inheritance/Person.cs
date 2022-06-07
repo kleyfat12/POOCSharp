@@ -21,7 +21,7 @@ namespace Inheritance
             Age = age;
         }
 
-        public void Show()
+        public virtual void Show()
         {
             Console.WriteLine($"Name: {Name}, Surnames: {Surnames}, Age: {Age}");
         }
